@@ -86,52 +86,8 @@
 // cout<< array[c]<<"\n";
 // }
 
-// //==========================================you tube =======================================================================//
-// #include<iostream>
-// using namespace std;
 
-// int main()
-// {
-//     int arr[1000];
-//     int i,j,t,n;
-
-//     cout<<"Enter the size of array "<<"\n";
-//     cin>>n;
-
-//     for(i=0;i<n;i++)
-//     {
-//         cout<<"Enter values for sorting :["<<i<<"]:"<<endl;
-//         cin>>arr[i];
-//     }
-
-//     cout<<"Unsorted array is :"<<" "<<endl;
-//     for(i=0;i<n;i++)
-//     {
-//         cout<<arr[i];
-//     }
-
-//     for(i=0;i<n-1;i++)
-//     {
-//         for(j=i+1;j<n;j++)
-//         {
-//             if(arr[i]>arr[j])
-//             {
-//                 t=arr[i];
-//                 arr[i]=arr[j];
-//                 arr[j]=t;
-//             }
-//         }
-//     }
-//     cout<<"Sorted array is :"<<endl;
-//     for(i=0;i<n;i++)
-//     {
-//         cout<<arr[i]<<" "<<endl;
-//     }
-//     return 0;
-// }
-
-
-//===================================one another way====================================================================//
+//===================================static===================================================================//
 
 // #include<iostream>
 // using namespace std;
@@ -169,7 +125,7 @@
 // }
 
 // // stablity====yes///
-
+//=================================================================dynamic===============================================================//
 #include<iostream>
 using namespace std;
 
